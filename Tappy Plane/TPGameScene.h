@@ -7,7 +7,11 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "TPPlane.h"
 
 @interface TPGameScene : SKScene
+
+@property (nonatomic) TPPlane *player;
+@property (nonatomic) SKNode *world;
 
 @end

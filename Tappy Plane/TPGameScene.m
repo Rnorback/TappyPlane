@@ -7,13 +7,23 @@
 //
 
 #import "TPGameScene.h"
+#import "TPPlane.h"
 
 @implementation TPGameScene
 
 -(id)initWithSize:(CGSize)size
 {
     if (self = [super initWithSize:size]) {
-        NSLog(@"Size %f,%f",size.width,size.height);
+        
+        // Setup world
+        _world = [SKNode node];
+        [self addChild:_world];
+        
+        // Setup player
+        _player = [[TPPlane alloc] init];
+        _player.position = CGPointMake(self.size.width/2,self.size.height/2);
+        [_world addChild:_player];
+        
     }
     return self;
 }
