@@ -10,4 +10,8 @@
 
 @interface TPPlane : SKSpriteNode
 
+@property NSMutableArray *planeAnimations; //Holds animation actions
+
+-(void)setRandomColor;
+
 @end

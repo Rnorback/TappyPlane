@@ -28,4 +28,10 @@
     return self;
 }
 
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    for (UITouch *touch in touches) {
+        [_player setRandomColor];
+    }
+}
 @end
