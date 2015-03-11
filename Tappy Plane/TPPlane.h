@@ -10,8 +10,11 @@
 
 @interface TPPlane : SKSpriteNode
 
-@property NSMutableArray *planeAnimations; //Holds animation actions
+
+@property (nonatomic) BOOL engineRunning;
+@property (nonatomic) BOOL accelerating;
 
 -(void)setRandomColor;
+-(void)update;
 
 @end
