@@ -70,8 +70,8 @@
 		93B3CD271AA590FB0044CE29 /* TPPlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPPlane.m; sourceTree = "<group>"; };
 		93E29F6D1AC07D35005AFF1A /* TPScrollingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPScrollingNode.h; sourceTree = "<group>"; };
 		93E29F6E1AC07D35005AFF1A /* TPScrollingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPScrollingNode.m; sourceTree = "<group>"; };
-		93E29F701AC07EE2005AFF1A /* TPScrollingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPScrollingLayer.h; sourceTree = "<group>"; };
-		93E29F711AC07EE2005AFF1A /* TPScrollingLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPScrollingLayer.m; sourceTree = "<group>"; };
+		93E29F701AC07EE2005AFF1A /* TPScrollingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPScrollingLayer.h; path = ../TPScrollingLayer.h; sourceTree = "<group>"; };
+		93E29F711AC07EE2005AFF1A /* TPScrollingLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPScrollingLayer.m; path = ../TPScrollingLayer.m; sourceTree = "<group>"; };
 		93EF2B041AB0023F0038EBB9 /* PlanePuffTrail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlanePuffTrail.sks; sourceTree = "<group>"; };
 		93EF2B051AB0023F0038EBB9 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		93F6D4131AAD55BD00FA33CB /* PlaneAnimations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlaneAnimations.plist; sourceTree = "<group>"; };
@@ -105,8 +105,6 @@
 		93B21BA21A99D06700737723 = {
 			isa = PBXGroup;
 			children = (
-				93E29F701AC07EE2005AFF1A /* TPScrollingLayer.h */,
-				93E29F711AC07EE2005AFF1A /* TPScrollingLayer.m */,
 				93B21BB61A99D06700737723 /* Tappy Plane */,
 				93B21BDA1A99D06700737723 /* Tappy PlaneTests */,
 				93B21BAD1A99D06700737723 /* Frameworks */,
@@ -152,6 +150,8 @@
 				93B3CD271AA590FB0044CE29 /* TPPlane.m */,
 				93E29F6D1AC07D35005AFF1A /* TPScrollingNode.h */,
 				93E29F6E1AC07D35005AFF1A /* TPScrollingNode.m */,
+				93E29F701AC07EE2005AFF1A /* TPScrollingLayer.h */,
+				93E29F711AC07EE2005AFF1A /* TPScrollingLayer.m */,
 				93B21BCD1A99D06700737723 /* Images.xcassets */,
 				93B21BB71A99D06700737723 /* Supporting Files */,
 			);
