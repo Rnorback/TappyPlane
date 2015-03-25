@@ -29,8 +29,6 @@
         [_world addChild:_player];
         _player.engineRunning = YES;
         
-        //Will this work?
-        
     }
     return self;
 }
