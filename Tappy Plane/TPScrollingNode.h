@@ -10,7 +10,7 @@
 
 @interface TPScrollingNode : SKNode
 
-@property (nonatomic) CGFloat horizontaScrollSpeed; // Distance to scroll per second
+@property (nonatomic) CGFloat horizontalScrollSpeed; // Distance to scroll per second
 @property (nonatomic) BOOL scrolling;
 
 -(void)updateWithTimeElapsed:(NSTimeInterval)timeElapsed;

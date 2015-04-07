@@ -11,7 +11,5 @@
 
 @interface TPGameScene : SKScene
 
-@property (nonatomic) TPPlane *player;
-@property (nonatomic) SKNode *world;
 
 @end

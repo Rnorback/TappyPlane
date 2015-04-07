@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		938F83C51AA58B420075EDEC /* Planes.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 938F83C41AA58B420075EDEC /* Planes.atlas */; };
+		938F83C51AA58B420075EDEC /* Graphics.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 938F83C41AA58B420075EDEC /* Graphics.atlas */; };
 		93B21BAF1A99D06700737723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B21BAE1A99D06700737723 /* Foundation.framework */; };
 		93B21BB11A99D06700737723 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B21BB01A99D06700737723 /* CoreGraphics.framework */; };
 		93B21BB31A99D06700737723 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B21BB21A99D06700737723 /* UIKit.framework */; };
@@ -43,7 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		938F83C41AA58B420075EDEC /* Planes.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Planes.atlas; sourceTree = "<group>"; };
+		938F83C41AA58B420075EDEC /* Graphics.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Graphics.atlas; sourceTree = "<group>"; };
 		93B21BAB1A99D06700737723 /* Tappy Plane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tappy Plane.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B21BAE1A99D06700737723 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		93B21BB01A99D06700737723 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -138,7 +138,7 @@
 			children = (
 				93EF2B031AB002180038EBB9 /* Particle Effects */,
 				93F6D4151AAD563700FA33CB /* Resources */,
-				938F83C41AA58B420075EDEC /* Planes.atlas */,
+				938F83C41AA58B420075EDEC /* Graphics.atlas */,
 				93B21BBF1A99D06700737723 /* TPAppDelegate.h */,
 				93B21BC01A99D06700737723 /* TPAppDelegate.m */,
 				93B21BC21A99D06700737723 /* Main.storyboard */,
@@ -148,10 +148,10 @@
 				93B21BEB1A99D0E600737723 /* TPGameScene.m */,
 				93B3CD261AA590FB0044CE29 /* TPPlane.h */,
 				93B3CD271AA590FB0044CE29 /* TPPlane.m */,
-				93E29F6D1AC07D35005AFF1A /* TPScrollingNode.h */,
-				93E29F6E1AC07D35005AFF1A /* TPScrollingNode.m */,
 				93E29F701AC07EE2005AFF1A /* TPScrollingLayer.h */,
 				93E29F711AC07EE2005AFF1A /* TPScrollingLayer.m */,
+				93E29F6D1AC07D35005AFF1A /* TPScrollingNode.h */,
+				93E29F6E1AC07D35005AFF1A /* TPScrollingNode.m */,
 				93B21BCD1A99D06700737723 /* Images.xcassets */,
 				93B21BB71A99D06700737723 /* Supporting Files */,
 			);
@@ -286,7 +286,7 @@
 				93EF2B061AB0023F0038EBB9 /* PlanePuffTrail.sks in Resources */,
 				93EF2B071AB0023F0038EBB9 /* spark.png in Resources */,
 				93B21BCE1A99D06700737723 /* Images.xcassets in Resources */,
-				938F83C51AA58B420075EDEC /* Planes.atlas in Resources */,
+				938F83C51AA58B420075EDEC /* Graphics.atlas in Resources */,
 				93B21BC41A99D06700737723 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

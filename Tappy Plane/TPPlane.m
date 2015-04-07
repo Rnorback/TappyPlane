@@ -45,7 +45,7 @@ static NSString* const kKeyPlaneAnimation = @"PlaneAnimation";
         _puffTrailEmitter.position = CGPointMake(-self.size.width/2, -self.size.height/4);
         [self addChild:_puffTrailEmitter];
         self.puffTrailBirthRate = self.puffTrailEmitter.particleBirthRate;
-        self.puffTrailEmitter.particleBirthRate = 0;
+        //self.puffTrailEmitter.particleBirthRate = 0;
         
         [self setRandomColor];
     }
@@ -83,7 +83,7 @@ static NSString* const kKeyPlaneAnimation = @"PlaneAnimation";
     NSMutableArray *frames = [[NSMutableArray alloc]init];
     
     // Get planes atlas
-    SKTextureAtlas *planesAtlas = [SKTextureAtlas atlasNamed:@"Planes"];
+    SKTextureAtlas *planesAtlas = [SKTextureAtlas atlasNamed:@"Graphics"];
     
     // Loop through textureNames array and add textures
     for (NSString *textureName in textureNames) {
